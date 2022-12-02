@@ -1,0 +1,251 @@
+body {
+
+    border: 2px solid black;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(#1282A2, #0A1128);
+    color: #FEFCFB;
+}
+
+
+
+
+
+img {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: Bungee;
+    src: url(fonts/Bungee/Bungee-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Freehand;
+    src: url(fonts/Freehand/Freehand-Regular.ttf);
+
+}
+
+#title {
+
+    padding: 0px;
+    margin: 30px auto 0px auto;
+    font-family: Bungee;
+    font-size: 60px;
+    text-shadow: 0px 0px 30px white;
+    color: #1282A2;
+
+}
+
+#happy {
+
+    font-size: 30px;
+    font-family: Freehand;
+    font-size: 60px;
+    text-shadow: 0px 0px 20px white;
+    color: #1282A2;
+    margin: 0 0 30px 0;
+
+}
+
+
+#question {
+
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 30px;
+    font-size: 30px;
+
+
+}
+
+
+#ins {
+
+    font-style: italic;
+
+}
+
+.cards {
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 630px;
+    margin: 0 auto 50px auto;
+    border-radius: 30px;
+    color: #034078;
+}
+
+#link {
+
+    text-decoration: underline;
+    color: ;
+}
+
+#day,
+#night {
+    border: 1px solid #0A1128;
+    border-radius: 30px;
+    background-color: #034078;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0.745, 0.11, 0.35, 0.845);
+    transition-timing-function: cubic-bezier(0.745,
+            0.11,
+            0.35,
+            0.845);
+
+}
+
+#day:hover {
+    background-color: #ffe169;
+    border: 4px solid #3d3d3d;
+    color: #0A1128;
+}
+
+#night:hover {
+    background-color: #0A1128;
+    border: 4px solid #3d3d3d;
+    color: #ffe169;
+
+}
+
+#day {
+
+    margin: 0 0 30px 0;
+
+}
+
+
+
+#self1 {
+
+    border: 1px solid #0A1128;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    background-color: #034078;
+    border-radius: 30px;
+
+
+}
+
+
+#self1:hover {
+
+    background-color: #FEFCFB;
+    color: #FEFCFB;
+
+}
+
+#self2:hover {
+
+    background-image: url(images/you-know.gif);
+    background-size: cover;
+
+
+}
+
+#self2 {
+
+    border: 1px solid #0A1128;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #034078;
+    border-radius: 30px;
+
+
+}
+
+
+#prof-img:hover {
+
+    background-image: url(images/guide_profile.gif);
+    background-size: cover;
+
+
+
+}
+
+#guide {
+
+    padding: 0px;
+    color: #034078;
+    margin: 50px auto;
+    font-size: 50px;
+}
+
+#guide2 {
+
+    padding: 0px;
+    color: #034078;
+    margin: 50px auto;
+    font-size: 20px;
+
+}
+
+#prof-img {
+
+    border: 1px solid #0A1128;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    padding: 10px 20px;
+    background-color: #034078;
+    border-radius: 30px;
+
+}
+
+h1 {
+
+    padding: 0px;
+    margin: 50px;
+
+}
+
+
+.guide-text {
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sub-title {
+
+    color: #FEFCFB;
+    text-shadow: 0px 0px 1px #0A1128;
+
+}
+
+#what {
+
+    color: #FEFCFB;
+    margin: 0;
+    text-shadow: 0px 0px 1px #0A1128;
+}
